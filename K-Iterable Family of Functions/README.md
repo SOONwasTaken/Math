@@ -22,3 +22,14 @@ Let iₓ be the iterator array i with x terms.
 Using this we can construct a function that lives within the family of functions that grows very fast, even for relatively small x and n.
 
 Example of an extremely large value: F(i₂₅₀₀₀₀, 250,000).
+
+# Diagonalization of K-Iterables (DoKI):
+
+Our example of an extremely large value above is one of significance. The significance being that both the value of x and n are the same. We are able to apply this principle to create a function that grows larger faster than all of the functions within the K-Iterable Family of Functions for all x and n. This process is known as ***diagonalization***.
+
+We can represent diagonalization in a more literal sense by constructing a table of values:
+-|Values for k|-|-
+:-:|:-:|:-:|:-:
+Values for n|f₁(1)|f₁(2)|f₁(3)
+-|f₂(1)|f₂(2)|f₂(3)
+-|f₃(1)|f₃(2)|f₃(3)
