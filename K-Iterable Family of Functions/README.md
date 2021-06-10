@@ -1,4 +1,4 @@
-K-Iterable Family of Functions:
+# K-Iterable Family of Functions:
 
 Let F(iₓ, n) be the K - Iterable Family of Functions by which the following rules apply: 
 
