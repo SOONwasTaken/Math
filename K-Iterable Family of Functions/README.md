@@ -55,10 +55,18 @@ k = 2|~~DoKI₂(1)~~|`DoKI₂(2)`|~~DoKI₂(3)~~|...
 k = 3|~~DoKI₃(1)~~|~~DoKI₃(2)~~|`DoKI₃(3)`|...
 ...|...|...|...|...
 
-We have created a Diagonalized Diagonalization function, DD(n) = DoKIₙ(n). Going even beyond, this we can continue building upon these functions, by repeating diagonalization.
+We have created a Diagonalized Diagonalization function, DoKIₙ(n). Going even beyond, this we can continue building upon these functions, by repeating diagonalization.
 
 # Diagonalized Diagonalization:
 
-Let DDᵏ(n) be [Placeholder]
+Let DDᵏ(n) be a function of constructed diagonlizations where the following applies:
+- DD¹(n) is simply DoKIₙ(n).
+- DDᵏ(n) is a equal to the constructed diagonalization of DDᵏ⁻¹(n) for all k > 1 where we evaluate the following:
+  - Begin with DDᵏ(n).
+  - Create a diagonalized version of the function DDᵏₙ(n).
+  - Iterate on the function and evaluate DDᵏₙ(n). Call this value N₁.
+  - Repeat these steps for k-1 to evaluate DDᵏₙ(n) = N₂.
+  - k-2 to evaluate N₃, and so on.
+  - Arrive at the final diagonalization DD¹ₙₖ₋₁(Nₖ₋₁) to evaluate the value of Nₖ.
 
-(note that k is a superscript and not a subscript, as we aren't iterating on this function) 
+(note that k is a superscript and not a subscript. The function constructs diagonalizations, which in turn create iterations, so there is no need to iterate this fuction) 
