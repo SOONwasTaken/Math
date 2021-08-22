@@ -60,7 +60,7 @@ We have created a Diagonalized Diagonalization function, `DoKIₙ(n)`. Going eve
 # Diagonalized Diagonalization:
 
 ## Important Note:
-k is a superscript and not a subscript. The function constructs diagonalizations, which in turn create iterations, so there is no need to iterate this fuction. 
+k is a superscript and not a subscript. The function constructs diagonalizations, which in turn create iterations, so there is no need to iterate this function. 
 
 Let `DDᵏ(n)` be a function of constructed diagonlizations where the following applies:
 - `DD¹(n)` is simply `DoKIₙ(n)`.
